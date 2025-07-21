@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     lsb-release \
     curl \
     sudo \
+    sshpass \
     software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 # Install AWS CLI
